@@ -1,3 +1,7 @@
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 *,
 ::before,
 ::after {
@@ -21,7 +25,7 @@ a {
 
 :root {
   --main-color: #60204f;
-  --main-font: Helvetica;
+  --main-font: Georgia;
 }
 
 body {
@@ -31,8 +35,34 @@ body {
 h1 {
   color: var(--main-color);
   padding: 15px;
+  padding-top: 25px;
 }
 
-.form-example {
+.form-structure {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px var(--main-color);
   margin: 1rem;
+  margin-right: 70%;
+  padding: 15px;
+}
+
+.label {
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+.checkbox {
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 25px;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #60204f;
+  color: #e0bed7;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
