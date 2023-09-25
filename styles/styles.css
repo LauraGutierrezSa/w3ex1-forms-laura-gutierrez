@@ -33,6 +33,15 @@ body {
 }
 
 h1 {
+  background-color: var(--main-color);
+  color: #e0bed7;
+  align-content: center;
+  font: Montserrat;
+  padding: 15px;
+  padding-top: 25px;
+}
+
+h2 {
   color: var(--main-color);
   padding: 15px;
   padding-top: 25px;
@@ -44,7 +53,7 @@ h1 {
   border: solid 1px var(--main-color);
   margin: 1rem;
   margin-right: 70%;
-  padding: 15px;
+  padding: 25px;
 }
 
 .label {
