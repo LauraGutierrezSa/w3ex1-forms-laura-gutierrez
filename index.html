@@ -13,8 +13,8 @@
 <body>
   <h1>Introduce tus datos en el siguiente formulario:</h1>
   <form>
-    <label for="username">Nombre de usuario:</label>
     <div class="form-example">
+      <label for="username">Nombre de usuario:</label>
       <input id="username" type="text" placeholder="tu nombre de usuario va aquí." />
     </div>
     <div class="form-example">
@@ -32,6 +32,15 @@
     <div class="form-example">
       <label for="birthDate">Fecha de nacimiento</label>
       <input id="birthdate" type="date" placeholder="Introduce tu fecha de nacimiento." />
+    </div>
+    <div class="form-example">
+      <label for="gender">Género</label>
+      <select id="genre">
+        <option value="">Género con el que te identificas.</option>
+        <option value="male">Masculino</option>
+        <option value="female">Femenino</option>
+        <option value="other">Otro</option>
+        <option value="ratherNotSay">Prefiero no decirlo</option>
     </div>
     <div class="form-example">
       <button type="submit">Enviar</button>

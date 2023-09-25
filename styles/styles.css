@@ -3,18 +3,36 @@
 ::after {
   box-sizing: border-box;
 }
-body {
+
+body,
+h1 {
   margin: 0;
 }
+
 ul {
   list-style: none;
   margin: 0;
   padding: 10px;
 }
+
 a {
   color: inherit;
 }
+
 :root {
-  --main-color: var(#60204f);
-  --main-font: var(Helvetica);
+  --main-color: #60204f;
+  --main-font: Helvetica;
+}
+
+body {
+  background-color: #d0a5c4;
+}
+
+h1 {
+  color: var(--main-color);
+  padding: 15px;
+}
+
+.form-example {
+  margin: 1rem;
 }
