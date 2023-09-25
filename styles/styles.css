@@ -33,7 +33,12 @@ body {
 }
 
 h1 {
-  background-color: var(--main-color);
+  background: linear-gradient(
+    90deg,
+    rgba(96, 32, 79, 1) 0%,
+    rgba(148, 77, 129, 1) 35%,
+    rgba(179, 139, 168, 1) 100%
+  );
   color: #e0bed7;
   align-content: center;
   font: Montserrat;
