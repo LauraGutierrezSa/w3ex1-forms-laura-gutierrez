@@ -15,5 +15,6 @@ a {
   color: inherit;
 }
 :root {
-  --main-font: var(#60204f);
+  --main-color: var(#60204f);
+  --main-font: var(Helvetica);
 }
